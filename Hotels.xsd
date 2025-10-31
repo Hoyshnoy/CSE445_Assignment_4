@@ -18,11 +18,13 @@
                     <xs:element name="State" type="xs:string"/>
                     <xs:element name="Zip" type="xs:string"/>
                   </xs:sequence>
-                  <xs:attribute name="_NearestAirport" type="xs:string" use="required"/>
+                  <!-- required attribute with NO underscore -->
+                  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="_Rating" type="xs:string" use="optional"/>
+            <!-- optional attribute with NO underscore -->
+            <xs:attribute name="Rating" type="xs:string" use="optional"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
@@ -30,4 +32,3 @@
   </xs:element>
 
 </xs:schema>
-

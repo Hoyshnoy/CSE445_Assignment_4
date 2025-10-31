@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotel> <!-- root element name should be Hotels -->
-  <Hotel _Rating="4.3">
+  <Hotel Rating="4.3">
     <Name>Arizona Grand Resort and Spa</Name>
     <Phone>877-800-4888</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>8000</Number>
       <Street>South Arizona Grand E</Street>
       <City>Phoenix</City>
@@ -12,7 +12,7 @@
     </Address>
   </Hotel>
 
-  <Hotel _Rating="4.2">
+  <Hotel Rating="4.2">
     <Name>Hilton Vacation Club Scottsdale Villa Mirage</Name>
     <Phone>480-473-4000</Phone>
     <Address> <!-- missing required _NearestAirport attribute -->
@@ -24,10 +24,10 @@
     </Address>
   </Hotel>
 
-  <Hotel _Rating="4.2">
+  <Hotel Rating="4.2">
     <Name>Great Wolf Lodge Arizona</Name>
     <!-- missing Phone element -->
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>7333</Number>
       <Street>N Pima Rd</Street>
       <City>Scottsdale</City>
@@ -36,10 +36,10 @@
     </Address>
   </Hotel>
 
-  <Hotel _Rating="3.9">
+  <Hotel Rating="3.9">
     <Name>Hilton Phoenix Resort at the Peak</Name>
     <Phone>602-997-2626</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>7677</Number>
       <Street>N 16th St</Street>
       <City>Phoenix</City>
@@ -48,12 +48,12 @@
     <!-- no closing Address tag -->
   </Hotel>
 
-  <Hotel _Rating="4.4">
+  <Hotel Rating="4.4">
     <!-- two Name elements -->
     <Name>Hampton Inn &amp; Suites Phoenix Glendale-Westgate</Name>
     <Name>Duplicate Name Example</Name>
     <Phone>623-271-7771</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>6630</Number>
       <Street>N 95th Ave</Street>
       <City>Glendale</City>
@@ -62,10 +62,10 @@
     </Address>
   </Hotel>
 
-  <Hotel _Rating="4.4">
+  <Hotel Rating="4.4">
     <Name>The Wigwam</Name>
     <Phone>844-239-1641</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>300</Number>
       <Street>E Wigwam Blvd</Street>
       <City>Litchfield Park</City>
@@ -74,10 +74,10 @@
     </Address>
   </Hotel>
 
-  <Hotel _Rating="4.2">
+  <Hotel Rating="4.2">
     <Name>Gila River Resorts &amp; Casinos - Vee Quiva</Name>
     <Phone>800-946-4452</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>15091</Number>
       <Street>S Komatke Ln</Street>
       <City>Laveen Village</City>
@@ -86,10 +86,10 @@
     </Address>
   </Hotel>
 
-  <Hotel _Rating="4.4">
+  <Hotel Rating="4.4">
     <Name>Canopy by Hilton Tempe Downtown</Name>
     <Phone>480-968-6800</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>108</Number>
       <Street>E University Dr</Street>
       <City>Tempe</City>
@@ -98,10 +98,10 @@
     </Address>
   </Hotel>
 
-  <Hotel _Rating="4.6">
+  <Hotel Rating="4.6">
     <Name>The Phoenician, a Luxury Collection Resort, Scottsdale</Name>
     <Phone>480-941-8200</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>6000</Number>
       <Street>E Camelback Rd</Street>
       <City>Scottsdale</City>
@@ -110,10 +110,10 @@
     </Address>
   </Hotel>
 
-  <Hotel _Rating="4.7">
+  <Hotel Rating="4.7">
     <Name>Four Seasons Resort Scottsdale</Name>
     <Phone>480-515-5700</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>10600</Number>
       <Street>E Crescent Moon Dr</Street>
       <City>Scottsdale</City>
